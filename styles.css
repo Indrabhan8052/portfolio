@@ -1,5 +1,4 @@
-
-  :root {
+:root {
     --bg: #0a0d14;
     --bg2: #111520;
     --bg3: #161b27;
@@ -199,4 +198,12 @@
     .btn-row { justify-content: center; }
     .about-grid { grid-template-columns: 1fr; gap: 2rem; }
     .photo-ring { width: 200px; height: 200px; }
+  }
+/* CERT MODAL */
+  .cert-item { cursor: default; }
+  .cert-item[onclick] { cursor: pointer; }
+  .cert-view-btn {
+    font-size: 0.78rem; color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    white-space: nowrap;
   }
